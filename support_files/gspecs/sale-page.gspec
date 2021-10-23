@@ -1,0 +1,7 @@
+@objects
+	sale-image			xpath	//div[@id='MainSaleImage']
+= Main Section =
+	sale-image:
+		image file 1.png, error 30%
+	# sale-image:
+	# 	image file 2.jpg, error 30%

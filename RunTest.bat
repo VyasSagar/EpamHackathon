@@ -1,0 +1,2 @@
+git stash
+mvn test 

@@ -1,0 +1,6 @@
+@objects
+	applyButton			xpath	//a[text()='Apply']
+	# sale-image			xpath	//div[@id='Calendar-Upcoming-Sales' and contains(.,'Sale 16270')]//div[@class='image--container_landscape']
+= Search Section =
+	applyButton:
+		width ~ 189px

@@ -1,0 +1,12 @@
+@objects
+    jumbotron		xpath	(//div[@class='slick-list draggable'])[1]
+    header			xpath	//div[@class='widget--christies-header']
+    auction-link	xpath	//li[contains(@class,'navbar-cc--nav-item') and contains(.,'Auctions')]/a
+= Main section =
+    jumbotron:
+        width ~ 1180px 
+    header:
+    	height ~109px
+    auction-link:
+    	text is	"AUCTIONS"
+    	css font-size is "13px"

@@ -1,0 +1,7 @@
+@objects
+
+	auction-itme-*	xpath	//ul/li[contains(@class,'auctions--sale-items')]
+
+= Main Section =
+	global:
+		count any auction-itme-* is 6
